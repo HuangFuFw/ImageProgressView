@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity" >
+
+    <include layout="@layout/topbar"
+        />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="58dp"
+ />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:layout_gravity="bottom"
+        android:text="Start new Activity" />
+
+    <com.ai.eve.ui.demo.widget.MyTextView1
+        android:id="@+id/tv1"
+        android:layout_width="200dp"
+        android:layout_height="100dp" />
+    <com.ai.eve.ui.demo.widget.MyTextView2
+        android:id="@+id/tv2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ImageProgressView</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="operating_systems">
+        <item >哈哈哈</item>
+        <item >Android</item>
+        <item >iOS</item>
+    </string-array>
+    <string name="tv1_content">你好你好</string>
+    <string name="card_string">collapseStatusposition</string>
+
+    <string name="temp_text">如何在ListView中确保当前textView的状态？
+我们知道在多列表view中，都要考虑到view重用的问题，若是expandableTextView不能在这种情况下使用的话，
+        那对我们的使用情景就大有限制了。在这里，在调用setText的时候，提供了SparseBooleanArray
+        collapseStatus和int position来记录当前的展开收起状态了。所以，
+        就需要我们在我们的adapter中也使用相同的数据结构了。具体代码如下：
+著作权归作者所有，转载请联系作者获得授权，并标注“简书作者”。</string>
+
+
+
+</resources>

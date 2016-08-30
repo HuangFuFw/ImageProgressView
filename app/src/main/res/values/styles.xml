@@ -1,0 +1,28 @@
+<resources>
+
+    <!--&lt;!&ndash; Base application theme. &ndash;&gt;-->
+    <style name="AppTheme" parent="@style/BaseAppTheme">
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="BaseAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#FF03A9FF</item>
+        <item name="colorPrimaryDark">#FF0288F1</item>
+        <item name="colorAccent">#FF4081</item>
+        <item name="android:windowBackground">@android:color/white</item>
+
+
+        <!-- 避免控件都会顶到状态栏上 -->
+        <item name="android:fitsSystemWindows">true</item>
+        <!--<style name="AppTheme.DrawerArrowToggle" parent="Base.Widget.AppCompat.DrawerArrowToggle"/>-->
+        <!--<item name="searchViewStyle"></item>-->
+
+    </style>
+    <!--常用的text属性-->
+    <style name="CardContent">
+        <item name="android:padding">10dp</item>
+        <item name="android:orientation">vertical</item>
+
+    </style>
+
+
+</resources>

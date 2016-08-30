@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+    />
+ <android.support.v4.widget.DrawerLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/DragLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+     <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent">
+     <ImageView
+     android:id="@+id/iv_main"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent" />
+     </LinearLayout>
+     <!--侧滑菜单-->
+     <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:background="#fff"
+     android:layout_gravity="start">
+     <ImageView
+     android:id="@+id/lv_left_menu"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:text="DrawerLayout" />
+     </LinearLayout>
+
+</android.support.v4.widget.DrawerLayout>
+
+    <!--<android.support.v4.widget.DrawerLayout-->
+        <!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+        <!--android:id="@+id/DragLayout1"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
+        <!--&lt;!&ndash;主布局&ndash;&gt;-->
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent">-->
+            <!--<ImageView-->
+                <!--android:id="@+id/iv_main"-->
+                <!--android:layout_width="100dp"-->
+                <!--android:layout_height="100dp" />-->
+        <!--</LinearLayout>-->
+        <!--&lt;!&ndash;侧滑菜单&ndash;&gt;-->
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:background="#fff"-->
+            <!--android:layout_gravity="start">-->
+            <!--<ImageView-->
+                <!--android:id="@+id/lv_left_menu"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:text="DrawerLayout" />-->
+        <!--</LinearLayout>-->
+    <!--</android.support.v4.widget.DrawerLayout>-->
+</LinearLayout>

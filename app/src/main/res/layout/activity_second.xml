@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="300dp"
+    android:layout_marginTop="100dp"
+    android:orientation="vertical"
+    tools:context=".Mainactivity">
+
+    <!--<TextView-->
+        <!--android:textColor="@color/material_blue_grey_800"-->
+        <!--android:text="test_second"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content" />-->
+    <!--<com.ai.eve.ui.demo.widget.MyVoiceView-->
+        <!--android:id="@+id/myview"-->
+        <!--android:background="#ffffff"-->
+        <!--android:layout_width="200dp"-->
+        <!--android:layout_height="200dp"-->
+        <!--/>-->
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="bottom"
+        android:text="Start Send Broadcast" />
+    <!--<Button-->
+        <!--android:id="@+id/button2"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:onClick="onClick"-->
+        <!--android:layout_gravity="bottom"-->
+        <!--android:text="Start new Activity" />-->
+    <!--<Button-->
+        <!--android:id="@+id/button3"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:onClick="onClick"-->
+        <!--android:layout_gravity="bottom"-->
+        <!--android:text="Start new Activity" />-->
+    <!--<com.ai.eve.ui.demo.widget.MyScrollView-->
+    <!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+        <!--android:id="@+id/myscrollview"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+<!--&gt;-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/image1"-->
+            <!--android:src="@drawable/backgroud"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content" />-->
+        <!--<ImageView-->
+            <!--android:id="@+id/image2"-->
+            <!--android:src="@drawable/backgroud"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content" />-->
+        <!--<ImageView-->
+            <!--android:id="@+id/image3"-->
+            <!--android:src="@drawable/backgroud"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content" />-->
+        <!--<ImageView-->
+            <!--android:id="@+id/image4"-->
+            <!--android:src="@drawable/backgroud"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content" />-->
+
+
+
+    <!--</com.ai.eve.ui.demo.widget.MyScrollView>-->
+
+
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ai.eve.ui.demo.widget.TopBar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/topbar"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:background="#fff888"
+    custom:leftText="back"
+    custom:leftBackground="@drawable/ic_launcher"
+    custom:leftTextColor="#FFFFFF"
+    custom:rightText="more"
+    custom:rightBackground="@drawable/ic_launcher"
+    custom:rightTextColor="#FFFFFF"
+    custom:titleColor="#FFF000"
+    custom:titlecontent="detail"
+    custom:titleTextSize="5sp">
+
+</com.ai.eve.ui.demo.widget.TopBar>
